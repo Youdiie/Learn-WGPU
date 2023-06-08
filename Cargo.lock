@@ -761,22 +761,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646"
 
 [[package]]
-name = "learn-wgpu"
-version = "0.1.0"
-dependencies = [
- "cfg-if",
- "console_error_panic_hook",
- "console_log",
- "env_logger",
- "log",
- "wasm-bindgen",
- "wasm-bindgen-futures",
- "web-sys",
- "wgpu",
- "winit",
-]
-
-[[package]]
 name = "libc"
 version = "0.2.144"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1463,6 +1447,38 @@ dependencies = [
  "indexmap",
  "toml_datetime",
  "winnow",
+]
+
+[[package]]
+name = "tutorial1-window"
+version = "0.1.0"
+dependencies = [
+ "cfg-if",
+ "console_error_panic_hook",
+ "console_log",
+ "env_logger",
+ "log",
+ "wasm-bindgen",
+ "wasm-bindgen-futures",
+ "web-sys",
+ "wgpu",
+ "winit",
+]
+
+[[package]]
+name = "tutorial2-surface"
+version = "0.1.0"
+dependencies = [
+ "cfg-if",
+ "console_error_panic_hook",
+ "console_log",
+ "env_logger",
+ "log",
+ "wasm-bindgen",
+ "wasm-bindgen-futures",
+ "web-sys",
+ "wgpu",
+ "winit",
 ]
 
 [[package]]

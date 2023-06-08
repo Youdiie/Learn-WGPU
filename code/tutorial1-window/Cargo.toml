@@ -1,5 +1,5 @@
 [package]
-name = "learn-wgpu"
+name = "tutorial1-window"
 version = "0.1.0"
 edition = "2021"
 
@@ -7,6 +7,10 @@ edition = "2021"
 
 [lib]
 crate-type = ["cdylib", "rlib"]
+
+[[bin]]
+name = "tutorial1-window"
+path = "src/main.rs"
 
 [dependencies]
 winit = "0.27"
